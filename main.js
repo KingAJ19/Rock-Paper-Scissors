@@ -33,10 +33,10 @@ function playRound(playerSelection, computerSelection) {
   ) {
     playerScore++;
     playerScoreEl.textContent = playerScore;
-    return "You win! " + playerSelection + " beats " + computerSelection;
+    return "You win! " ;
   } else {
     computerScore++;
     computerScoreEl.textContent = computerScore;
-    return "You lose! " + computerSelection + " beats " + playerSelection;
+    return "You lose! " ;
   }
 }
